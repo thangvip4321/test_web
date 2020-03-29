@@ -1,4 +1,5 @@
 #instruction:
+
         sh setup.sh  ( to create virtual environment for our packages)
         export FLASK_APP=testx.py
         flask run
