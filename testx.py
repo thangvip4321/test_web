@@ -53,7 +53,7 @@ def upload_file():
 
             response = send_file(file_path,mimetype='image/jpeg',cache_timeout=0) #set time_out to renew every reload :)
             print("response is",response.headers)
-            os.remove(file_path)
+            #os.remove(file_path)
             return response 
     return '''
     <!doctype html>
