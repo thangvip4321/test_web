@@ -1,8 +1,6 @@
 # instruction: #
 
         sh setup.sh  ( to create virtual environment for our packages)
-        export FLASK_APP=testx.py
-        flask run
 
 and open 127.0.0.1:5000 on your browser
 
