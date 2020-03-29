@@ -13,9 +13,9 @@
         
 # for windows users: (assuming that python < 3.6 has already been installed) #
         py -m venv venv
-        venv\Scripts\activate.bat
+        venv\Scripts\activate
         pip3 install -r requirements.txt
-        export FLASK_APP=testx.py
+        $Env:FLASK_APP = "testx.py"
         
         flask run
 and open 127.0.0.1:5000 on your browser
