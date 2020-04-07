@@ -64,9 +64,6 @@ def upload_file():
       <input type=submit value=Upload>
     </form>
     '''
-#@app.route('/result')
-#def uploaded_file():
-#    print(request)
-#    print(g)
-#    img = g.pop('processed_image')
-#    return img
+
+if __name__ == '__main__':
+    app.run()
